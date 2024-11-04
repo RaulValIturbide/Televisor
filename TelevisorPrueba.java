@@ -1,9 +1,16 @@
-/*Sabiendo que:
--	El método “imprimirCaracteristicas” muestra en pantalla el valor de todas las propiedades del objeto.
--	Si al cambiar el volumen o el canal de la televisión, el nuevo valor está fuera del rango permitido se debe mostrar un mensaje de error y dejar el valor que hubiera previamente.
--	Si se intenta encender o apagar dos el televisor veces consecutivas no se debe mostrar ningún mensaje.
--	Si el televisor está apagado sólo podremos encenderlo o imprimir sus características. En el resto de los métodos escribiremos: “Televisor apagado”.
--	Para el resto de los casos de los métodos se debe mostrar un mensaje que indique la acción que se ha realizado.
+/*13)	Añade una clase llamada PruebaTelevisor al proyecto del ejercicio anterior que verifique el buen funcionamiento de los objetos de tipo Televisor.
+Para ello haremos la siguiente secuencia de acciones:
+-	Crearemos un televisor de la marca “Sony”, modelo “Bravia” del año 2024.
+-	A continuación, imprimiremos sus características.
+-	Encendemos el televisor e imprimimos el canal seleccionado.
+-	Ahora bajamos de canal (debe dar un mensaje de error).
+-	Seleccionamos el canal 23 y después subimos de canal.
+-	Ahora intentamos poner el volumen a 300 (debe dar un error).
+-	Ponemos el volumen a 50 e imprimimos las características de nuevo.
+-	Apagamos el televisor
+-	Seleccionamos el canal 60 (debe decir que está apagado).
+-	Y por último apagamos el televisor otra vez.
+
 */
 package EjercicioTelevisor11y12y13;
 
