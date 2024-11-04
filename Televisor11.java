@@ -1,5 +1,11 @@
 package EjercicioTelevisor11y12y13;
-
+/*Sabiendo que:
+-	El método “imprimirCaracteristicas” muestra en pantalla el valor de todas las propiedades del objeto.
+-	Si al cambiar el volumen o el canal de la televisión, el nuevo valor está fuera del rango permitido se debe mostrar un mensaje de error y dejar el valor que hubiera previamente.
+-	Si se intenta encender o apagar dos el televisor veces consecutivas no se debe mostrar ningún mensaje.
+-	Si el televisor está apagado sólo podremos encenderlo o imprimir sus características. En el resto de los métodos escribiremos: “Televisor apagado”.
+-	Para el resto de los casos de los métodos se debe mostrar un mensaje que indique la acción que se ha realizado.
+*/
 import java.util.Scanner;
 
 public class Televisor11 {
@@ -25,7 +31,7 @@ public class Televisor11 {
         System.out.format("""
                       Marca=%s
                       Modelo=%s
-                      A�o=%d
+                      Año=%d
                       Panoramica=%b
                       Stereo=%b
                       Encendido=%b
@@ -62,7 +68,7 @@ public class Televisor11 {
 
     void obtenerCanal() {
         if (this.encendida) {
-            System.out.println("Est� usted en el canal: " + this.canal);
+            System.out.println("Está usted en el canal: " + this.canal);
         } else {
             System.out.println("TV apagada");
         }
@@ -73,7 +79,7 @@ public class Televisor11 {
             if (this.canal + 1 > 100){
                 System.out.println("Error, elija un canal del 1 al 100");
             }else{this.canal+=1;}
-            System.out.println("Ahora usted est� en el canal: " + this.canal);
+            System.out.println("Ahora usted está en el canal: " + this.canal);
         } else {
             System.out.println("TV apagada");
         }
@@ -84,7 +90,7 @@ public class Televisor11 {
             if ((this.canal - 1) < 1 ){
                 System.out.println("Error, elija un canal entre 1 y 100");
             }else {this.canal-=1;
-            System.out.println("Ahora est� usted en el canal: " + this.canal);
+            System.out.println("Ahora está usted en el canal: " + this.canal);
         }}else {
             System.out.println("TV apagada");
         }
