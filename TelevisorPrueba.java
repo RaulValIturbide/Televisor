@@ -1,7 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+/*Sabiendo que:
+-	El método “imprimirCaracteristicas” muestra en pantalla el valor de todas las propiedades del objeto.
+-	Si al cambiar el volumen o el canal de la televisión, el nuevo valor está fuera del rango permitido se debe mostrar un mensaje de error y dejar el valor que hubiera previamente.
+-	Si se intenta encender o apagar dos el televisor veces consecutivas no se debe mostrar ningún mensaje.
+-	Si el televisor está apagado sólo podremos encenderlo o imprimir sus características. En el resto de los métodos escribiremos: “Televisor apagado”.
+-	Para el resto de los casos de los métodos se debe mostrar un mensaje que indique la acción que se ha realizado.
+*/
 package EjercicioTelevisor11y12y13;
 
 
